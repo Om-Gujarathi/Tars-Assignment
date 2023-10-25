@@ -4,7 +4,7 @@ import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import ImageModal from "./ImageModal";
+import ImageModal from "./imagemodal";
 import Modal from "@mui/material/Modal";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 import searchState from "../recoil/SearchState";
